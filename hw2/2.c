@@ -88,8 +88,8 @@
 
   printf("\nfor %ld jobs\n", index);
   printf("   average service time .... = %6.2f\n", sum.service / index);
-  printf("   The utilization............ = %6.2%%f\n", utilization);
-  printf("   The traffic intensity............ = %6.2%%f\n", sum.service / sum.interarrival);
+  printf("   The utilization............ = %6.2f\n", utilization);
+  printf("   The traffic intensity............ = %6.2f\n", sum.service / sum.interarrival);
   fclose(fp);
   return (0);
 }
